@@ -1,0 +1,60 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  background-color: #21222B;
+}
+
+.Navbar_h4 {
+  color: #AEB8C1;
+  font-size: 2rem;
+}
+
+.Navbar_h3 {
+  color: #61DAFA;
+  font-size: 2rem;
+  position: relative;
+  right: 28.5%;
+}
+
+.MainContent {
+  margin-left: 7rem;
+}
+
+.MainContent_h1 {
+  font-size: 4rem;
+  margin: 4rem 0rem;
+  color: white;
+}
+
+.MainContent_ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.MainContent_ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #5EDBFA; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-size: 3rem;
+}
+
+.MainContent_li {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  color: white;
+}
+
+html {
+  background-color: #272D34;
+}
